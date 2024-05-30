@@ -1,0 +1,76 @@
+.bg {
+	background-image: url("images/ecocraft.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: fixed;
+	left: 0; right: 0; top: 0; bottom: 0;
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+	z-index: -999;
+	width: 100%;
+  	height: 100%;
+}
+h2 a {
+	color: dodgerblue;
+	text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #6289d7;
+    border-radius: 15px;
+    border: 3px solid whitesmoke;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: dodgerblue;
+}
+a.navbar-brand {
+	font-size: 24px;
+}
+li a, button, li, form, h1, h3, p, h5, h2, a.navbar-brand {
+	font-family: Vinnytsia;
+}
+.header {
+	box-shadow: 3px 3px 5px 1px rgba(122, 122, 122, 0.75);
+    border-radius: 7px;
+    padding: 7px;
+    background: #FFFFFF;
+    left: 0; right: 0; top: 0; bottom: 0;
+    opacity: 0.85;
+    margin-top: 2.5%;
+}
+.main-title {
+	padding-top: 20px;
+}
+ul.navbar-nav ul.dropdown-menu {
+    box-shadow: 3px 3px 5px 1px rgba(122, 122, 122, 0.75);
+}
+#main {
+	box-shadow: 3px 3px 5px 1px rgba(122, 122, 122, 0.75);
+	border-radius: 7px;
+	padding: 7px;
+	background: #FFFFFF;
+    left: 0; right: 0; top: 0; bottom: 0;
+	opacity: 0.85;
+	margin-top: 60px;
+}
+img {
+	pointer-events: none;
+}
+@font-face {
+	font-family: Vinnytsia;
+	src: url("fonts/VinnytsiaSansReg.ttf");
+}
+@font-face {
+	font-family: Vinnytsia-City;
+	src: url("fonts/VinnytsiaCity.ttf");
+}
