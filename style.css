@@ -45,7 +45,7 @@ li a, button, li, form, h1, h3, p, h5, h2, a.navbar-brand {
 	font-family: Vinnytsia;
 }
 .header {
-	box-shadow: 3px 3px 5px 1px rgba(122, 122, 122, 0.75);
+    box-shadow: 3px 3px 5px 1px rgba(122, 122, 122, 0.75);
     border-radius: 7px;
     padding: 7px;
     background: #FFFFFF;
@@ -101,4 +101,7 @@ img {
 .beautiful-button * {
     color: white;
     text-decoration: none;
+}
+.carousel-item {
+    justify-content: center;
 }
